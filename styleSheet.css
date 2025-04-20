@@ -1,0 +1,40 @@
+body{
+    background-color: darkblue;
+}
+
+
+#calculator{
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: row; 
+    justify-self: center;
+    height: 600px;
+    width: 550px;
+    flex-wrap: wrap;
+}
+
+#screen{
+    background-color: black;
+    flex: 1 1 100%;
+    align-items: center;
+    align-content: center;
+}
+
+
+#screen #text{
+    color: aqua;
+    font-size: 33px;
+}
+
+
+#calculator button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    aspect-ratio: 2/1;
+    width: calc(100%/15);
+    flex: 1 1 25%;
+}
+
